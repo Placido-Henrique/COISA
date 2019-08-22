@@ -18,6 +18,16 @@ public class Disciplina {
         	
     }
     private double calculaMedia() {
+    	double soma = 0;
+    	int elementos = notas.length; 
+    	for (int i = 0;i < notas.length;i ++) {
+    		soma += notas[i];
+    	}
+    	
+    	return soma/elementos;
+    		
+    		
+    	}
     	
     	
     }
